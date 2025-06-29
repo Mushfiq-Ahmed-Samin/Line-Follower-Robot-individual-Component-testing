@@ -1,13 +1,13 @@
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(9600); // Initialize serial communication at 9600 bits per second
 
 
 }
 
 void loop()
 {
-  Serial.print(analogRead(0));
+  Serial.print(analogRead(0)); // Read the analog value from analog pin 0 (A0)
   Serial.println();
 
 
